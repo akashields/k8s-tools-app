@@ -14,12 +14,12 @@ spec:
   project: tools
   source:
     path: apps/other-resources
-    repoURL: https://github.com/atoy3731/k8s-tools-app.git
+    repoURL: https://github.com/akashields/k8s-tools-app.git
     targetRevision: master
     helm:
       values: |
-        argoHost: "argo.demo.atoy.dev"
-        issuerEmail: "adam@atoy.dev"
+        argoHost: "argo.demo.alexshields.net"
+        issuerEmail: "alex@alexshields.net"
   syncPolicy:
     automated:
       prune: true
